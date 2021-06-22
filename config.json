@@ -10,5 +10,9 @@
 	{
 		"type": "portworx",
 		"health_check": "portworx_health_check.py"
+	},
+	{
+		"type": "austin",
+		"health_check": "austin_health_check.sh"
 	}
 ]
